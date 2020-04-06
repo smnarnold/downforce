@@ -4,8 +4,6 @@
   "description": "Downforce boardgame online",
   "main": "app.js",
   "scripts": {
-    "start": "webpack",
-    "server": "node app.js"
   },
   "author": "Simon Arnold",
   "license": "ISC",
