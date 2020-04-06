@@ -1,0 +1,24 @@
+{
+  "name": "downforce",
+  "version": "1.0.0",
+  "description": "Downforce boardgame online",
+  "main": "app.js",
+  "scripts": {
+    "start": "webpack",
+    "server": "node app.js"
+  },
+  "author": "Simon Arnold",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "babel-loader": "^8.0.5",
+    "uglifyjs-webpack-plugin": "^2.1.2",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.10"
+  }
+}
